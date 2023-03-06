@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>America</title>
+ <style>
+ *{
+    padding: 0px;
+    margin: 0px;
+}
+
+#div{
+    width: 100%;
+    height: 500px;
+    background-size: 100% 500px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    background-color: black;
+}
+#a1{
+    width: 100%;
+    z-index: 0;
+}
+#pageheading{
+    font-size: 200px;
+    color: rgb(224,215,215);
+    z-index: 1;
+    position: absolute;
+    bottom: 140px;
+    left: 60px;
+    letter-spacing: 20px;
+    text-shadow: 0px 0px 10px black;
+}
+
+#navbar{
+    width: 100%;
+    height: 45px;
+    background-color: teal;
+    border-bottom: solid 2px black;
+    box-shadow: 0px 0px 15px black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#mainlist{
+    display: flex;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.li{
+    list-style: none;
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: solid 2px black;
+    height: 30px;
+}
+.li:hover{
+    background-color: orange;
+}
+.li a{
+    text-decoration: none;
+    font-size: 17px;
+    color:white;
+}
+#mainlist li:hover a{
+    color: black;
+}
+
+#a{
+    width: 120px;
+    text-align: center;
+}
+i{
+    padding-left: 10px;
+}
+
+#sublist{  
+    background-color: teal;
+    margin-top: 11px;
+    list-style-type: none;
+    margin-left: -19px;
+    margin-right: -19px;
+    border: solid 2px black;
+    display: none;
+}
+.subli {
+    border: solid 2px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+.subli:hover {
+    background-color: lime;
+    color: white;
+}
+#a:hover #sublist{
+    display: block;
+}
+
+#div2{
+    width: 100%;
+    height: 600px;
+    background-color:gold;
+    position: relative;
+}
+#subdiv{
+    width: 450px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    border-radius: 20px;
+    
+}
+#img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+#img-heading{
+    position: absolute;
+    right: 90px;
+    font-size:55px ;
+    top: 100px;
+    text-shadow: 0px 0px 10px white;
+}
+iframe{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    right: 120px;
+    top: 170px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+details{
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+}
+
+     </style>
+</head>
+<body>
+    <div id="div">
+            <video id="a1" autoplay muted loop > </video>
+            <h1 id="pageheading">AMERICA</h1>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <li class="li"><a href="../htmlAndjs/homepage.html">Home</a></li>
+            <li class="li" id="a"><a href="#"> Places <i class="fa-solid fa-caret-down"></i></a>
+                <ul id="sublist">
+                    <li class="subli"><a href="../htmlAndjs/india.html"> India</a></li>
+                    <li class="subli"><a href="../htmlAndjs/dubai.html"> Dubai</a></li>
+                    <li class="subli"><a href="#"> America</a></li>
+                    <li class="subli"><a href="../htmlAndjs/japan.html"> Japan</a></li>
+                </ul>
+            </li>
+            <li class="li"><a href="#"> Info</a></li>
+            <li class="li"><a href="../htmlAndjs/logIn.html">Logout</a></li>
+        </ul>
+    </div>
+
+    <div id="div2">
+            <div id="subdiv">
+                <img id="img" src="../assets/images/statueOfLiberty.jpg" alt="">  
+               
+            </div>
+            <h1 id="img-heading">Statue of Liberty</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12101.225545940446!2d-74.0445004!3d40.6892494!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2sStatue%20of%20Liberty!5e0!3m2!1sen!2sin!4v1674977635697!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <details>
+                <summary>Details about Statue of liberty</summary>
+               <p>
+                The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States. The copper statue, a gift from the people of France, was designed by French sculptor Frédéric Auguste Bartholdi and its metal framework was built by Gustave Eiffel. The statue was dedicated on October 28, 1886.
+
+The statue is a figure of Libertas, a robed Roman liberty goddess. She holds a torch above her head with her right hand, and in her left hand carries a tabula ansata inscribed JULY IV MDCCLXXVI, the date of the U.S. Declaration of Independence. A broken shackle and chain lie at her feet as she walks forward, commemorating the recent national abolition of slavery. After its dedication, the statue became an icon of freedom and of the United States, seen as a symbol of welcome to immigrants arriving by sea.
+
+Bartholdi was inspired by a French law professor and politician, Édouard René de Laboulaye, who is said to have commented in 1865 that any monument raised to U.S. independence would properly be a joint project of the French and American peoples. The Franco-Prussian War delayed progress until 1875, when Laboulaye proposed that the French finance the statue and the United States provide the site and build the pedestal. Bartholdi completed the head and the torch-bearing arm before the statue was fully designed, and these pieces were exhibited for publicity at international expositions.
+               </p>
+            </details>
+     </div>
+    <script>
+        function america()
+     {
+    var col=["../assets/videos/america-vid1.mp4","../assets/videos/america-vid2.mp4","../assets/videos/america-vid3.mp4"]
+    var len=col.length
+    var a=col[Math.floor(Math.random()*len)]
+    document.getElementById("a1").setAttribute("src"," "+a+" ")
+    let b=SetTimeout(function() {fun()},2000)
+   }
+    america()
+    </script>
+</body>
+</html>

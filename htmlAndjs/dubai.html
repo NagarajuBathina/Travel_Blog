@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Dubai</title>
+ <style>
+ *{
+    padding: 0px;
+    margin: 0px;
+}
+
+#div{
+    width: 100%;
+    height: 500px;
+    background-size: 100% 500px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    background-color: black;
+}
+#a1{
+    width: 100%;
+    z-index: 0;
+}
+#pageheading{
+    font-size: 200px;
+    color: rgb(224,215,215);
+    z-index: 1;
+    position: absolute;
+    bottom: 140px;
+    left: 260px;
+    letter-spacing: 20px;
+    text-shadow: 0px 0px 10px black;
+}
+
+#navbar{
+    width: 100%;
+    height: 45px;
+    background-color: teal;
+    border-bottom: solid 2px black;
+    box-shadow: 0px 0px 15px black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#mainlist{
+    display: flex;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.li{
+    list-style: none;
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: solid 2px black;
+    height: 30px;
+}
+.li:hover{
+    background-color: orange;
+}
+.li a{
+    text-decoration: none;
+    font-size: 17px;
+    color:white;
+}
+#mainlist li:hover a{
+    color: black;
+}
+
+#a{
+    width: 120px;
+    text-align: center;
+}
+i{
+    padding-left: 10px;
+}
+
+#sublist{  
+    background-color: teal;
+    margin-top: 11px;
+    list-style-type: none;
+    margin-left: -19px;
+    margin-right: -19px;
+    border: solid 2px black;
+    display: none;
+}
+.subli {
+    border: solid 2px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+.subli:hover {
+    background-color: lime;
+    color: white;
+}
+#a:hover #sublist{
+    display: block;
+}
+
+#div2{
+    width: 100%;
+    height: 600px;
+    background-color:gold;
+    position: relative;
+}
+#subdiv{
+    width: 450px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    border-radius: 20px;
+    
+}
+#img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+#img-heading{
+    position: absolute;
+    right: 150px;
+    font-size:55px ;
+    top: 100px;
+    text-shadow: 0px 0px 10px white;
+}
+iframe{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    right: 120px;
+    top: 170px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+details{
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+}
+
+     </style>
+</head>
+<body>
+    <div id="div">
+            <video id="a1" autoplay muted loop > </video>
+            <h1 id="pageheading">DUBAI</h1>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <li class="li"><a href="../htmlAndjs/homepage.html">Home</a></li>
+            <li class="li" id="a"><a href="#"> places <i class="fa-solid fa-caret-down"></i></a>
+                <ul id="sublist">
+                    <li class="subli"><a href="../htmlAndjs/india.html"> India</a></li>
+                    <li class="subli"><a href="#"> dubai</a></li>
+                    <li class="subli"><a href="../htmlAndjs/america.html">america</a></li>
+                    <li class="subli"><a href="../htmlAndjs/japan.html"> Japan</a></li>
+                </ul>
+            </li>
+            <li class="li"><a href="#"> info</a></li>
+            <li class="li"><a href="../htmlAndjs/logIn.html"> logout</a></li>
+        </ul>
+    </div>
+
+    <div id="div2">
+            <div id="subdiv">
+                <img id="img" src="../assets/images/burj-khalifa.jpg" alt="">  
+               
+            </div>
+            <h1 id="img-heading">Burj-khalifa</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14440.714613798018!2d55.2743764!3d25.197197!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sin!4v1674975239615!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <details>
+                <summary>Details about Burj-khalifa</summary>
+                <p>The Burj Khalifa known as the Burj Dubai prior to its inauguration in 2010, is a skyscraper in Dubai, United Arab Emirates. It is known for being the world's tallest building. With a total height of 829.8m and a roof height of 828 m, the Burj Khalifa has been the tallest structure and building in the world since its topping out in 2009, supplanting Taipei 101, the previous holder of that status.
+
+                    Construction of the Burj Khalifa began in 2004, with the exterior completed five years later in 2009. The primary structure is reinforced concrete and some of the structural steel for the building originated from the Palace of the Republic in East Berlin, the former East German parliament. The building was opened in 2010 as part of a new development called Downtown Dubai. It was designed to be the centerpiece of large-scale, mixed-use development. The decision to construct the building was based on the government's decision to diversify from an oil-based economy, and for Dubai to gain international recognition.[citation needed] The building is named in honor of the former president of the United Arab Emirates, Khalifa bin Zayed Al Nahyan. Abu Dhabi and the UAE government lent Dubai money to pay its debts. The building broke numerous height records, including its designation as the tallest building in the world.</p>
+            </details>
+     </div>
+    <script>
+        function india()
+     {
+    var col=["../assets/videos/dubai-vid1.mp4","../assets/videos/dubai-vid2.mp4","../assets/videos/dubai-vid3.mp4" ]
+    var len=col.length
+    var a=col[Math.floor(Math.random()*len)]
+    document.getElementById("a1").setAttribute("src"," "+a+" ")
+    let b=SetTimeout(function() {fun()},2000)
+   }
+    india()
+    </script>
+</body>
+</html>

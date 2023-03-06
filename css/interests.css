@@ -1,0 +1,219 @@
+fieldset{
+    text-align: center;
+    border: none;
+    border-top: solid 2px black; 
+}
+legend{
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#intersets{
+    height: 500px;
+    background-image: linear-gradient(rgb(130, 132, 132),teal);
+    background-size: 100%;
+}
+
+#int1{
+    width: 230px;
+    height: 170px;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    float: left;
+    cursor: pointer;
+}
+#img1{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px black ;
+    transition: width 0.5s,height 0.5s;
+
+}
+#img1:hover{
+    width: 102%;
+    height: 172px;
+}
+#span1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 15px black;
+    font-style: italic;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+#int2{
+    width: 230px;
+    height: 170px;
+    position: relative;
+    top: 50px;
+    left: 290px;
+    float: left;
+    cursor: pointer;
+}
+#img2{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px black ;
+    transition: width 0.5s,height 0.5s;
+    cursor: pointer;
+}
+#img2:hover{
+    width: 102%;
+    height: 172px;
+}
+#span2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 15px black;
+    font-style: italic;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+
+#int3{
+    width: 230px;
+    height: 170px;
+    position: relative;
+    top: 50px;
+    left: 490px;
+    clear: right;
+    cursor: pointer;
+}
+#img3{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px black ;
+    transition: width 0.5s,height 0.5s;
+    cursor: pointer;
+}
+#img3:hover{
+    width: 102%;
+    height: 172px;
+}
+#span3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 15px black;
+    font-style: italic;
+    position: absolute;
+    top: 60px;
+    right: -400px;
+}
+
+
+#int4{
+    width: 230px;
+    height: 170px;
+    position: relative;
+    top: 100px;
+    left: 70px;
+    float: left;
+    cursor: pointer;
+}
+#img4{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px black ;
+    transition: width 0.5s,height 0.5s;
+    cursor: pointer;
+}
+#img4:hover{
+    width: 102%;
+    height: 172px;
+}
+#span4{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 15px black;
+    font-style: italic;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+
+#int5{
+    width: 230px;
+    height: 170px;
+    position: relative;
+    top: 100px;
+    left: 290px;
+    float: left;
+    cursor: pointer;
+}
+#img5{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px black;
+    transition: width 0.5s,height 0.5s;
+    cursor: pointer;
+}
+#img5:hover{
+    width: 102%;
+    height: 172px;
+}
+#span5{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 15px black;
+    font-style: italic;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+
+#int6{
+    width: 230px;
+    height: 170px;
+    position: relative;
+    top: 100px;
+    left: 490px;
+    clear: right;
+    cursor: pointer;
+}
+#img6{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px black ;
+    transition: width 0.5s,height 0.5s;
+    cursor: pointer;
+}
+#img6:hover{
+    width: 102%;
+    height: 172px;
+}
+#span6{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 15px black;
+    font-style: italic;
+    position: absolute;
+    top: 60px;
+    right: -420px;
+}

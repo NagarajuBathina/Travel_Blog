@@ -1,0 +1,48 @@
+#places{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(43, 43, 43);
+}
+
+#place1,#place2,#place3,#place4,#place5,#place6{
+    font-size: 20px;
+    color: white;
+   display: inline;
+    margin-left: 50px;
+    padding-left: 45px;
+    position: relative;
+    top: 30px;
+    text-decoration-line: none;
+}
+
+#place7,#place8,#place9,#place10,#place11,#place12{
+    font-size: 20px;
+    color: white;
+    display: inline;
+    margin-left: 95px;
+    position: relative;
+    top: 65px;
+}
+#place5{
+    padding-left: 53px;
+}
+#place6{
+    padding-left: 55px;
+}
+#place8{
+    padding-left: 30px;
+}
+#place9{
+    padding-left: 28px;
+}
+#place10{
+    padding-left: 18px;
+}
+
+a{
+    color: white;
+    text-decoration-line: none;
+}
+a:hover{
+    color:lime;
+}

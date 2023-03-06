@@ -1,0 +1,23 @@
+#signupbar{
+    width: 100%;
+    height: 50px;
+    background-color: teal;
+    position: relative;
+}
+#sub-sign{
+    display: inline;
+    float: right;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+#ic1,#ic2{
+    margin-right: 30px;
+    color: black;
+}
+#ic1:hover{
+    color: lime;
+}
+#ic2:hover{
+    color: lime;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Create Account</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+      <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        }
+        #container{
+            width: 45%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            left: 365px;
+            background-color: rgb(46, 48, 49);
+            height: 80vh;
+            top: 50px;
+            border-radius: 15px;
+        }
+        p{
+            border-bottom: solid 2px lime;
+            padding-right: 10px;
+            font-weight: bold;
+            color: lime;
+            margin-bottom: 25px;
+            font-size: 20px;
+            padding: 15px 0px 5px 10px;
+        }
+        form{
+            width: 580px;
+        }
+        .lb{
+            color:white;
+            font-weight: bold;
+            padding-left: 25px;
+            line-height: 50px;
+        }
+        .input{
+            width: 360px;
+            padding:10px 0px 10px 10px;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(84, 84, 84, 0.5);
+            color: white;
+            font-weight: bold;
+        }
+        #in1{
+            margin-left: 50px;
+        }
+        #in2{
+            margin-left: 72px;
+        }
+        #in3{
+            margin-left: 12px;
+        }
+        #in4{
+            margin-left: 60px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            width: 320px;
+        }
+        #in5{
+            padding: 10px 235px 10px 237px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: white;
+            background-color: rgba(84, 84, 84, 0.5);
+            border: none;
+            margin-left: 28px;
+            margin-top: 17px;
+        }
+        #in5:hover{
+            background-color: lime;
+            color: black;
+        }
+        #eye{
+            color: white;
+            background-color:rgba(84, 84, 84, 0.5);
+            outline: none;
+            padding: 10px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+      </style>
+</head>
+<body>
+    <div id="container" >
+        <form action="">
+        <p>Create Account</p>
+        <label class="lb" for="" id="u1">User Name :</label>
+        <input type="text"  class="input" id="in1">
+        <br><br>
+        <label class="lb" for="">Email Id :</label>
+        <input type="email" class="input" id="in2">
+        <br><br>
+        <label class="lb" for="">Mobile Number :</label>
+        <input type="tel"  class="input" id="in3">
+        <br><br>
+        <label class="lb"  for="" id="p1">Password :</label>
+        <input type="password"  class="input" id="in4">
+        <i class="fa-regular fa-eye-slash" id="eye" onmousedown="visible()" onmouseup="hide()" > </i>
+        <br><br>
+        <div>
+        <a href="../htmlAndjs/homepage.html" target="_blank">
+        <input type="button" value="submit" id="in5" onclick="fun()">
+       </a>
+    </div>
+
+    </form>
+    </div>
+    <script >
+    function visible()
+        {
+            document.getElementById("in4").removeAttribute("type","password")
+            document.getElementById("eye").setAttribute("class","fa-regular fa-eye")
+        }
+        function hide()
+        {
+            document.getElementById("in4").setAttribute("type","password")
+            document.getElementById("eye").setAttribute("class","fa-regular fa-eye-slash")
+        }
+    </script>
+</body>
+</html>
